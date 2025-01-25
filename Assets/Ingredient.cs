@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Ingredient
 {
+    public int id;
 
     void Start()
     {
@@ -12,4 +13,8 @@ public class Ingredient
     {
     }
 
+    public Ingredient(int i)
+    {
+        id = i;
+    }
 }
