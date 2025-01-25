@@ -4,12 +4,7 @@ using UnityEngine;
 
 public class npc : MonoBehaviour
 {
-<<<<<<< Updated upstream
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-=======
+
     [Range(1, 10)]
     [SerializeField]
     private float viewRadius = 5;
@@ -38,15 +33,11 @@ public class npc : MonoBehaviour
     void Start()
     {
         StartCoroutine(DetectionCoroutine());
->>>>>>> Stashed changes
     }
 
     // Update is called once per frame
     void Update()
     {
-<<<<<<< Updated upstream
-        
-=======
         if (Target != null)
         {
             TargetVisible = CheckTargetVisible();
@@ -102,7 +93,5 @@ public class npc : MonoBehaviour
     {
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position, viewRadius);
-
->>>>>>> Stashed changes
     }
 }
