@@ -4,7 +4,7 @@ using UnityEngine.Audio;
 
 public class SoundManager : MonoBehaviour
 {
-    private SoundManager m_instance;
+    public SoundManager m_instance;
 
     [SerializeField]
     private Sound[] sounds;
@@ -28,6 +28,18 @@ public class SoundManager : MonoBehaviour
             s.source.outputAudioMixerGroup = s.mixer;
             s.source.clip = s.clip;
             s.source.volume = s.volume;
+            s.source.pitch = s.pitch;
+            s.source.loop = s.loop;
+        }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        foreach (Sound s in sounds)
+        {
+            s.source.volume = s.volume;
+            s.source.pitch = s.pitch;
             s.source.loop = s.loop;
         }
     }
