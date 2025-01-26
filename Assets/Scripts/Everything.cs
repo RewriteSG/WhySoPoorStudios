@@ -45,8 +45,8 @@ public class Everything : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Press A to add the entire recipe in:
-        if (Input.GetKeyDown(KeyCode.A)) 
+        // Press Q to add the entire recipe in:
+        if (Input.GetKeyDown(KeyCode.Q)) 
         {
             Debug.Log(Foods[0].Recipe[0]);
 

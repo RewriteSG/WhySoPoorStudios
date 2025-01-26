@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Multiplayer.Center.Common.Analytics;
 public class Customer : MonoBehaviour
 {
     public List<Food> myOrder;
@@ -28,9 +29,8 @@ public class Customer : MonoBehaviour
         BubbleTime = 100;
     }
 
-    bool isOrderCompleted(Food PlayerChoice)
+    bool isOrderCompleted(Food PlayerChoice, Food food)
     {
-        Food food = myOrder[0];
         if (PlayerChoice.Recipe.Count != food.Recipe.Count)
         {
             return false;
@@ -55,21 +55,32 @@ public class Customer : MonoBehaviour
                 return true;
             }
         }
+
+
+    }
+
+    public void interactCustomer()
+    {
+        if (myOrder.Count > 0)
+        {
+            Debug.Log("S pressed");
+
+            for (int i = 0; i < myOrder.Count; i++)
+            {
+                // Serve the customer:
+                if (isOrderCompleted(Everything.Instance.PlayerChoice, myOrder[i]))
+                {
+                    myOrder.RemoveAt(i--);
+                    Everything.Instance.PlayerChoice.Recipe.Clear();
+                    break;
+                }
+            }
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.S) && myOrder.Count > 0)
-        {
-            Debug.Log("S pressed");
-            // Serve the customer:
-            if (isOrderCompleted(Everything.Instance.PlayerChoice))
-            {
-                myOrder.RemoveAt(0);
-            }
-        }
-
         if (myOrder.Count > 0)
             BubbleTime -= Time.deltaTime;
 

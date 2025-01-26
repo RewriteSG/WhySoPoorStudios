@@ -5,6 +5,8 @@ using UnityEngine;
 public class npc : MonoBehaviour
 {
 
+    public Customer customer;
+
     [Range(1, 10)]
     [SerializeField]
     private float viewRadius = 5;
@@ -33,6 +35,8 @@ public class npc : MonoBehaviour
     void Start()
     {
         StartCoroutine(DetectionCoroutine());
+
+        customer = GetComponent<Customer>();
     }
 
     // Update is called once per frame
@@ -41,9 +45,9 @@ public class npc : MonoBehaviour
         if (Target != null)
         {
             TargetVisible = CheckTargetVisible();
-            if (Input.GetKey(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.E))
             {
-                print("QEW");
+                customer.interactCustomer();
             }
         }
     }

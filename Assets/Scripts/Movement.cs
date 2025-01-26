@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class script : MonoBehaviour
+public class Movement : MonoBehaviour
 {
     public float speed;
     private float movex;

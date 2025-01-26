@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 5076965527756579628}
   - component: {fileID: 5575370233123947295}
   - component: {fileID: 1346955953449354484}
-  m_Layer: 0
+  - component: {fileID: 3680246838367718149}
+  m_Layer: 6
   m_Name: 03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76,7 +77,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8c24cf91b58c9254d81b0bcc36ed8d4e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -103,3 +104,26 @@ MonoBehaviour:
   myOrder: []
   BubbleTime: 5
   Seat: {fileID: 0}
+--- !u!114 &3680246838367718149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3096422356667358765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f138d3284acd8ed4dbd4c7215f3e4a55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customer: {fileID: 0}
+  viewRadius: 1
+  target: {fileID: 0}
+  detectionCheckDelay: 0.1
+  playerLayerMask:
+    serializedVersion: 2
+    m_Bits: 128
+  visibilityLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  <TargetVisible>k__BackingField: 0
