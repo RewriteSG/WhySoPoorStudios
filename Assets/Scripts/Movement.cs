@@ -10,6 +10,7 @@ public class Movement : MonoBehaviour
     private float movex;
     private float movey;
 
+
     private Rigidbody2D rb;
     // Start is called before the first frame update
     void Start()
@@ -18,6 +19,16 @@ public class Movement : MonoBehaviour
     }
     void Update()
     {
+        SpriteRenderer ok = GetComponent<SpriteRenderer>();
+
+        if (transform.position.y > -2)
+        {
+            ok.sortingOrder = 3; // Render on top
+        }
+        else
+        {
+            ok.sortingOrder = 6; // Render below
+        }
 
         movex = Input.GetAxis("Horizontal");
         movey = Input.GetAxis("Vertical");

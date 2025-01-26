@@ -42,9 +42,36 @@ public class Everything : MonoBehaviour
 
     }
 
+    bool Blender()
+    {
+        PlayerChoice.Recipe.Add(Food.INGREDIENTS.Blender);
+        for (int i = 0; i < Foods.Count; i++)
+        {
+            bool checkifcorrectorder = true;
+            if (PlayerChoice.Recipe.Count == Foods[i].Recipe.Count)
+            {
+                for (int j = 0; j < PlayerChoice.Recipe.Count; j++)
+                {
+                    if (PlayerChoice.Recipe[j] != (Foods[i].Recipe[j]))
+                    {
+                        checkifcorrectorder = false;
+                        break;
+                    }
+                }
+                if (checkifcorrectorder)
+                {
+                    return true;
+                }
+            }
+        }
+
+        return false;
+    }
+
     // Update is called once per frame
     void Update()
     {
+        
         // Press Q to add the entire recipe in:
         if (Input.GetKeyDown(KeyCode.Q)) 
         {
@@ -61,8 +88,19 @@ public class Everything : MonoBehaviour
             }
         }
 
-        // This is to clear the recipe:
-        if (Input.GetKeyDown(KeyCode.B))
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+
+            if (!Blender())
+            {
+                // Mysterious Drink
+                Debug.Log("wrong");
+            }
+        }
+
+
+            // This is to clear the recipe:
+            if (Input.GetKeyDown(KeyCode.B))
         {
             Debug.Log("B pressed");
             PlayerChoice.Recipe.Clear();
