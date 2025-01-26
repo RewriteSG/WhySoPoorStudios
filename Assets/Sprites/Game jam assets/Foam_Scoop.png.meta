@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e74fd8e374216db43b1d2a35a186333e
+guid: b9c74daf1adc5ff47922b2b5ed15ed84
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8475667523556201351
-    second: Layout_0
+      213: -3209927386848552058
+    second: Foam_Scoop_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Layout_0
+      name: Foam_Scoop_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1152
-        height: 648
+        x: 76
+        y: 326
+        width: 1922
+        height: 1383
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 97c2e181b41606a80800000000000000
-      internalID: -8475667523556201351
+      spriteID: 68b18107c0c0473d0800000000000000
+      internalID: -3209927386848552058
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Layout_0: -8475667523556201351
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,0 +1,917 @@
+fileFormatVersion: 2
+guid: 2d35ff91b81ea2a4a942f7f428ae9793
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4145618423983104505
+    second: Ocean_Latte_0
+  - first:
+      213: 4058202120500592701
+    second: Ocean_Latte_1
+  - first:
+      213: 5670511914428956387
+    second: Ocean_Latte_2
+  - first:
+      213: 1709061561874066861
+    second: Ocean_Latte_3
+  - first:
+      213: -2725769967994928027
+    second: Ocean_Latte_4
+  - first:
+      213: 8512329064288884280
+    second: Ocean_Latte_5
+  - first:
+      213: -7575691511560557322
+    second: Ocean_Latte_6
+  - first:
+      213: 8384769861433801480
+    second: Ocean_Latte_7
+  - first:
+      213: 7837901069381446188
+    second: Ocean_Latte_8
+  - first:
+      213: 7313981929467003912
+    second: Ocean_Latte_9
+  - first:
+      213: -2920417930565295604
+    second: Ocean_Latte_10
+  - first:
+      213: -2175372568443369940
+    second: Ocean_Latte_11
+  - first:
+      213: 3876670370668011598
+    second: Ocean_Latte_12
+  - first:
+      213: -815411289373199651
+    second: Ocean_Latte_13
+  - first:
+      213: -94175729120662754
+    second: Ocean_Latte_14
+  - first:
+      213: -7288815253385141517
+    second: Ocean_Latte_15
+  - first:
+      213: 737226491026787027
+    second: Ocean_Latte_16
+  - first:
+      213: -1827558502952066884
+    second: Ocean_Latte_17
+  - first:
+      213: -1714570344197975598
+    second: Ocean_Latte_18
+  - first:
+      213: 8185234443367159096
+    second: Ocean_Latte_19
+  - first:
+      213: 7225445474108466319
+    second: Ocean_Latte_20
+  - first:
+      213: 4636842733438898365
+    second: Ocean_Latte_21
+  - first:
+      213: -8263062037207518972
+    second: Ocean_Latte_22
+  - first:
+      213: -4578523942560804639
+    second: Ocean_Latte_23
+  - first:
+      213: 5438458314888288934
+    second: Ocean_Latte_24
+  - first:
+      213: -1330342965261227586
+    second: Ocean_Latte_25
+  - first:
+      213: 1362064790154955637
+    second: Ocean_Latte_26
+  - first:
+      213: 6698692663728336155
+    second: Ocean_Latte_27
+  - first:
+      213: 8633237256306170568
+    second: Ocean_Latte_28
+  - first:
+      213: 9062940143940256037
+    second: Ocean_Latte_29
+  - first:
+      213: 4742260726404997771
+    second: Ocean_Latte_30
+  - first:
+      213: -7190991009558263652
+    second: Ocean_Latte_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ocean_Latte_0
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1301
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1e3dffdf1388930800000000000000
+      internalID: 4145618423983104505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_1
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1323
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30cc2bc351a15830800000000000000
+      internalID: 4058202120500592701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_2
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 1273
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee7822ea84b1be40800000000000000
+      internalID: 5670511914428956387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_3
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 1259
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad27ce7f6ec7b710800000000000000
+      internalID: 1709061561874066861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_4
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1268
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5640c36e7ae1c2ad0800000000000000
+      internalID: -2725769967994928027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_5
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1282
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8361c280f2ed12670800000000000000
+      internalID: 8512329064288884280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_6
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1263
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fcad7d35bcbdd690800000000000000
+      internalID: -7575691511560557322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_7
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1250
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80bb92ab3cfac5470800000000000000
+      internalID: 8384769861433801480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_8
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 1236
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2aa221ee71d5cc60800000000000000
+      internalID: 7837901069381446188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_9
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 1233
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804c18f40db708560800000000000000
+      internalID: 7313981929467003912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_10
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1228
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0269fc7d579877d0800000000000000
+      internalID: -2920417930565295604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_11
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 1229
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26cdc3bc268fc1e0800000000000000
+      internalID: -2175372568443369940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_12
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1219
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40e2f2a923bcc530800000000000000
+      internalID: 3876670370668011598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_13
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1233
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd23117a0c31fa4f0800000000000000
+      internalID: -815411289373199651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_14
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1184
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1bac4f5cab61bef0800000000000000
+      internalID: -94175729120662754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_15
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 1206
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2a784152de8da90800000000000000
+      internalID: -7288815253385141517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_16
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 1192
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dac8ac66972b3a00800000000000000
+      internalID: 737226491026787027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_17
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 1181
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb02c41793533a6e0800000000000000
+      internalID: -1827558502952066884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_18
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 1208
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d119ab2b5f9438e0800000000000000
+      internalID: -1714570344197975598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_19
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 1195
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8351138eb5bc79170800000000000000
+      internalID: 8185234443367159096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_20
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 1196
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84603c6060f54460800000000000000
+      internalID: 7225445474108466319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_21
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1179
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db01af526ef595040800000000000000
+      internalID: 4636842733438898365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_22
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1161
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401fa335bd4b35d80800000000000000
+      internalID: -8263062037207518972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_23
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 824
+        width: 235
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0da087bb0d570c0800000000000000
+      internalID: -4578523942560804639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_24
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1094
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa9fa0f509497b40800000000000000
+      internalID: 5438458314888288934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_25
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 1109
+        width: 15
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb92a2e1f1ca98de0800000000000000
+      internalID: -1330342965261227586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_26
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1074
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57bc04ac5b607e210800000000000000
+      internalID: 1362064790154955637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_27
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1035
+        width: 15
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1dea098c7986fc50800000000000000
+      internalID: 6698692663728336155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_28
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 1002
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca1cc33b8b6fc770800000000000000
+      internalID: 8633237256306170568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_29
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 1033
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521cf2c1b0806cd70800000000000000
+      internalID: 9062940143940256037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_30
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 1002
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82e7ad4105efc140800000000000000
+      internalID: 4742260726404997771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ocean_Latte_31
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 961
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98804cb6c7743c90800000000000000
+      internalID: -7190991009558263652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
