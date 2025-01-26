@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using Unity.Multiplayer.Center.Common.Analytics;
 public class Customer : MonoBehaviour
 {
+    private PlayerStat playerStat;
+
     public List<Food> myOrder;
     /// <summary>
     /// The customer wait time for order
@@ -15,6 +17,8 @@ public class Customer : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        playerStat = FindAnyObjectByType<PlayerStat>();
+
         string myOrders = "My orders are ";
         for (int i = 0; i < myOrder.Count; i++)
         {
@@ -70,6 +74,7 @@ public class Customer : MonoBehaviour
                 // Serve the customer:
                 if (isOrderCompleted(Everything.Instance.PlayerChoice, myOrder[i]))
                 {
+                    playerStat.AddCurrency(myOrder[i].profit);
                     myOrder.RemoveAt(i--);
                     Everything.Instance.PlayerChoice.Recipe.Clear();
                     break;
