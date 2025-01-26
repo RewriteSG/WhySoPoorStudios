@@ -6,20 +6,46 @@ public class Everything : MonoBehaviour
     public List<Ingredient> PlayerChoice = new List<Ingredient> { };
 
 
-    Food BubbleTea = new Food();
+    Food OceanLatte = new Food();
+    Food BubbleSplash = new Food();
+    Food SSCooler = new Food();
+    Food ChocoCake = new Food();
+    Food BubbleCake = new Food();
+    Food StrawberryCake = new Food();
+
+
+
 
     void Start()
     {
-        BubbleTea.Recipe = new List<Food.INGREDIENTS> {
-            Food.INGREDIENTS.Ice,
-            Food.INGREDIENTS.Ice,
-            Food.INGREDIENTS.Ice
+        OceanLatte.Recipe = new List<Food.INGREDIENTS> {
+            Food.INGREDIENTS.Cup,
+            Food.INGREDIENTS.Milk,
+            Food.INGREDIENTS.Syrup,
+            Food.INGREDIENTS.Blender,
+            Food.INGREDIENTS.Foam,
         };
+
+        BubbleSplash.Recipe = new List<Food.INGREDIENTS> {
+            Food.INGREDIENTS.Cup,
+            Food.INGREDIENTS.Bubbles,
+            Food.INGREDIENTS.Seaweed,
+            Food.INGREDIENTS.Salt
+        };
+
+        SSCooler.Recipe = new List<Food.INGREDIENTS> {
+            Food.INGREDIENTS.Cup,
+            Food.INGREDIENTS.Syrup,
+            Food.INGREDIENTS.Salt,
+            Food.INGREDIENTS.Milk,
+            Food.INGREDIENTS.Blender
+        };
+
 
 
         for (int i = 0; i < 3; i++)
         {
-            Debug.Log(BubbleTea.Recipe[i]);
+            Debug.Log(OceanLatte.Recipe[i]);
         }
 
         for (int i = 0; i < PlayerChoice.Count; i++)
@@ -41,7 +67,7 @@ public class Everything : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.A))
         {
-            Debug.Log(BubbleTea.Recipe[0]);
+            Debug.Log(OceanLatte.Recipe[0]);
 
             for (int i = 0; i < PlayerChoice.Count; i++)
             {
@@ -61,7 +87,7 @@ public class Everything : MonoBehaviour
                 bool checkifcorrectorder = true;
                 for (int i = 0; i < PlayerChoice.Count; i++)
                 {
-                    if (PlayerChoice[i].id != (int)(BubbleTea.Recipe[i]))
+                    if (PlayerChoice[i].id != (int)(OceanLatte.Recipe[i]))
                     {
                         checkifcorrectorder = false;
                         break;
