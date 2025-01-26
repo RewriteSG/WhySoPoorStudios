@@ -84,7 +84,7 @@ public class Everything : MonoBehaviour
 
             if (CheckOrder(Foods[0]))
             {
-                Debug.Log("nigga");
+
             }
         }
 
