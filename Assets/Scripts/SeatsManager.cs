@@ -9,7 +9,7 @@ public class SeatsManager : MonoBehaviour
     public List<bool> SeatsTaken;
     public int SeatsTakenCount;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Awake()
     {
         foreach(GameObject seat in Seats)
         {

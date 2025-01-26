@@ -6,12 +6,12 @@ public class Orders : MonoBehaviour
     /// <summary>
     /// Food Icons
     /// </summary>
-    public string[] FoodToOrderIcons;
+    public Everything Food;
 
-    public string GetRandomOrder()
+    public Food GetRandomOrder()
     {
-        int random = Random.Range(0, FoodToOrderIcons.Length);
-        return FoodToOrderIcons[random];
+        int random = Random.Range(0, Food.Foods.Count);
+        return Food.Foods[random];
     }
 
 }

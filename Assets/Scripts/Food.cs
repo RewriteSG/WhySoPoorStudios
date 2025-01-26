@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
+[System.Serializable]
 public class Food
 {
+    public string Name;
     public int profit = 0;
-    public int size = 1;
 
     public List<INGREDIENTS> Recipe;
 
