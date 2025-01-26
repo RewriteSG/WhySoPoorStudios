@@ -189,6 +189,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -909,7 +922,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ocean_Latte_0: 4145618423983104505
+      Ocean_Latte_1: 4058202120500592701
+      Ocean_Latte_10: -2920417930565295604
+      Ocean_Latte_11: -2175372568443369940
+      Ocean_Latte_12: 3876670370668011598
+      Ocean_Latte_13: -815411289373199651
+      Ocean_Latte_14: -94175729120662754
+      Ocean_Latte_15: -7288815253385141517
+      Ocean_Latte_16: 737226491026787027
+      Ocean_Latte_17: -1827558502952066884
+      Ocean_Latte_18: -1714570344197975598
+      Ocean_Latte_19: 8185234443367159096
+      Ocean_Latte_2: 5670511914428956387
+      Ocean_Latte_20: 7225445474108466319
+      Ocean_Latte_21: 4636842733438898365
+      Ocean_Latte_22: -8263062037207518972
+      Ocean_Latte_23: -4578523942560804639
+      Ocean_Latte_24: 5438458314888288934
+      Ocean_Latte_25: -1330342965261227586
+      Ocean_Latte_26: 1362064790154955637
+      Ocean_Latte_27: 6698692663728336155
+      Ocean_Latte_28: 8633237256306170568
+      Ocean_Latte_29: 9062940143940256037
+      Ocean_Latte_3: 1709061561874066861
+      Ocean_Latte_30: 4742260726404997771
+      Ocean_Latte_31: -7190991009558263652
+      Ocean_Latte_4: -2725769967994928027
+      Ocean_Latte_5: 8512329064288884280
+      Ocean_Latte_6: -7575691511560557322
+      Ocean_Latte_7: 8384769861433801480
+      Ocean_Latte_8: 7837901069381446188
+      Ocean_Latte_9: 7313981929467003912
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
