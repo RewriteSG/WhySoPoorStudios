@@ -11,10 +11,18 @@ public class Food
 
     public enum INGREDIENTS
     {
-        Ice = 0,
-        Tea,
-        Boba,
-        Water
+        Cup = 0,
+        Bubbles,
+        Seaweed,
+        Salt,
+        Milk,
+        Foam,
+        Syrup,
+        Blender,
+        Plate,
+        BubbleCake,
+        ChocoCake,
+        StrawberryCake
     }
 
     public Food()

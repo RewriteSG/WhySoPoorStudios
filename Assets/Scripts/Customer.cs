@@ -79,7 +79,4 @@ public class Customer : MonoBehaviour
             SeatsManager.instance.SetSeatAvailable(Seat);
         }    
     }
-
-
-
 }
