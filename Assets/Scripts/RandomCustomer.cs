@@ -8,6 +8,7 @@ public class RandomCustomer : MonoBehaviour
     public float spawnRate = 3;
     public float spawnTimer = 0;
     public GameObject Door;
+   
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

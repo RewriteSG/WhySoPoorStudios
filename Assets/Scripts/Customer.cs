@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.EventSystems;
 using Unity.Multiplayer.Center.Common.Analytics;
 public class Customer : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class Customer : MonoBehaviour
     public float BubbleTime = 5;
     public GameObject Seat;
     public float moveSpeed = 5;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -84,14 +86,6 @@ public class Customer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (myOrder.Count > 0)
-            BubbleTime -= Time.deltaTime;
-
-        if(BubbleTime<= 0)
-        {
-            Destroy(gameObject);
-            SeatsManager.instance.SetSeatAvailable(Seat);
-        }
         float distance = Vector3.Distance(transform.position, Seat.transform.position);
         if (distance < 1 && transform.position != Seat.transform.position)
         {
@@ -115,5 +109,9 @@ public class Customer : MonoBehaviour
 
             transform.position -= new Vector3(0, 1) * moveSpeed * Time.deltaTime;
         }
+    }
+    private void OnMouseDown()
+    {
+        Destroy(gameObject);
     }
 }

@@ -621,17 +621,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Customers:
   - {fileID: 6837282389955230943, guid: 958ef5c5e160d9b4691fff15d5213470, type: 3}
-  - {fileID: 3061867857167938976, guid: 88b220036db38084599ac555d9a54121, type: 3}
-  - {fileID: 7793601121487649790, guid: fab5b1907e75f3644b6c31469ee6bbbe, type: 3}
-  - {fileID: 2308844043888377120, guid: 3d8075f1facbeb8488422ed446690e2b, type: 3}
-  - {fileID: 5287715397121293277, guid: f1d2e9dee64c0f44c8b825443a4cae95, type: 3}
-  - {fileID: 6033556466638880286, guid: 45b6c7b71aa49f34592b696ad9f8a180, type: 3}
-  - {fileID: 3096422356667358765, guid: 599466f2ad4242b41a57c2005dfbfc8d, type: 3}
-  - {fileID: 5104134114361216245, guid: a145bdc6d60335b42acb09b1131c9c0f, type: 3}
-  - {fileID: 4618982719954546054, guid: c138b61c3be99b143a3eb55d603a1e6b, type: 3}
-  - {fileID: 6281002160606949850, guid: 21c39ee78e34a774fba2f182bae3afb4, type: 3}
-  - {fileID: 6484235917151389001, guid: b2edae09f272e6f42aea2d086ce3f25c, type: 3}
-  - {fileID: 7840728391953435943, guid: 9422becd2716bdc4baa8f82d9bf885a8, type: 3}
   orders: {fileID: 129646892}
   seats: {fileID: 893105306}
   spawnRate: 3
@@ -7010,7 +6999,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1422806599}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bdcdd332f0d7cae439973e720631b771, type: 3}
   m_Name: 
@@ -9330,7 +9319,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1713282453
 Transform:
   m_ObjectHideFlags: 0
