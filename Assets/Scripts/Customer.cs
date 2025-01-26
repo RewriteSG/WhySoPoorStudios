@@ -13,7 +13,7 @@ public class Customer : MonoBehaviour
     /// </summary>
     public float BubbleTime = 5;
     public GameObject Seat;
-
+    public float moveSpeed = 5;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -28,8 +28,6 @@ public class Customer : MonoBehaviour
 
         }
         print(myOrders);
-        transform.position = Seat.transform.position;
-
         BubbleTime = 100;
     }
 
@@ -93,6 +91,29 @@ public class Customer : MonoBehaviour
         {
             Destroy(gameObject);
             SeatsManager.instance.SetSeatAvailable(Seat);
-        }    
+        }
+        float distance = Vector3.Distance(transform.position, Seat.transform.position);
+        if (distance < 1 && transform.position != Seat.transform.position)
+        {
+            transform.position = Seat.transform.position;
+        }
+
+        if (transform.position.x < Seat.transform.position.x && Mathf.Abs(transform.position.x-Seat.transform.position.x) > 0.1f )
+        {
+            transform.position += new Vector3(1, 0) * moveSpeed * Time.deltaTime;
+        }
+        else if (transform.position.x > Seat.transform.position.x && Mathf.Abs(transform.position.x - Seat.transform.position.x) > 0.1f)
+        {
+            transform.position -= new Vector3(1, 0) * moveSpeed * Time.deltaTime;
+        }else if (transform.position.y < Seat.transform.position.y && Mathf.Abs(transform.position.y - Seat.transform.position.y) > 0.1f)
+        {
+
+            transform.position += new Vector3(0, 1) * moveSpeed * Time.deltaTime;
+        }
+        else if (transform.position.y > Seat.transform.position.y && Mathf.Abs(transform.position.y - Seat.transform.position.y) > 0.1f)
+        {
+
+            transform.position -= new Vector3(0, 1) * moveSpeed * Time.deltaTime;
+        }
     }
 }

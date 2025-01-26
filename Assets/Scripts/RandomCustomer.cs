@@ -5,21 +5,27 @@ public class RandomCustomer : MonoBehaviour
     public GameObject[] Customers;
     public Orders orders;
     public SeatsManager seats;
-
+    public float spawnRate = 3;
+    public float spawnTimer = 0;
+    public GameObject Door;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         orders = GetComponent<Orders>();
-        SpawnRandomCustomer();
-        SpawnRandomCustomer();
-        SpawnRandomCustomer();
-        SpawnRandomCustomer();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(spawnTimer>= spawnRate)
+        {
+            spawnTimer = 0;
+            SpawnRandomCustomer();
+        }
+        else
+        {
+            spawnTimer += Time.deltaTime;
+        }
     }
 
     void SpawnRandomCustomer()
@@ -37,6 +43,7 @@ public class RandomCustomer : MonoBehaviour
         }
         customer.Seat = seats.GetAvailableSeats();
         customer.BubbleTime = GetRandomBubbleTimer();
+        customer.transform.position = Door.transform.position;
     }
     /// <summary>
     /// 0 - 10 in floats

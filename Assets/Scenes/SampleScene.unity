@@ -634,6 +634,9 @@ MonoBehaviour:
   - {fileID: 7840728391953435943, guid: 9422becd2716bdc4baa8f82d9bf885a8, type: 3}
   orders: {fileID: 129646892}
   seats: {fileID: 893105306}
+  spawnRate: 3
+  spawnTimer: 0
+  Door: {fileID: 1663124977}
 --- !u!1 &145368594
 GameObject:
   m_ObjectHideFlags: 0
@@ -9056,6 +9059,37 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 7.18, y: 5.73}
   m_EdgeRadius: 0
+--- !u!1 &1663124977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1663124978}
+  m_Layer: 0
+  m_Name: w
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1663124978
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663124977}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.7, y: 4.61, z: -0.020176128}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1697120948
 GameObject:
   m_ObjectHideFlags: 0
@@ -11486,3 +11520,4 @@ SceneRoots:
   - {fileID: 1713282453}
   - {fileID: 1273369085}
   - {fileID: 2008571468}
+  - {fileID: 1663124978}
